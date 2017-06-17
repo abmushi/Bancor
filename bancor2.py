@@ -18,13 +18,13 @@ S = 300000.0
 F = 0.2
 
 rnd = np.random
-start = []	# starting point of each Bar
+start = []	# x-coordinate of left line of each Bar
 width = []	# width of each Bar
 height = []	# height of each Bar(effective price)
 h = []		# height of each price(starting price and resulting price)
 
 #	initialize variables that holds current value
-st = 0.00 		# current starting point of Bar(first bar starts from '0')
+st = 0.00 		# x-coordinate of current Bar(first bar starts from '0')
 ht = R/(S*F)	# current price(starting price of ETH/BNT)
 
 color = [] # color of each har, 0: Red, 1:Green
