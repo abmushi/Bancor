@@ -100,11 +100,21 @@ def getReserve(T):
 	return e
 
 num_of_tx = 4
+
+
+# ---- Transaction Registration Starts -----
+
+# * Parameters should be float type
+# * first transaction comes first
+# * multiple Reserve is not yet supported
 	
-getSmart(300.0)
-getSmart(700.0)
-getReserve(1302.0)
-getSmart(100.0)
+getSmart(300.0)			# Convert 300.0 ETH to BNT
+getSmart(700.0)			# Convert 700.0 ETH to BNT
+getReserve(1302.0)		# Convert 1302.0 BNT to ETH
+getSmart(100.0)			# Convert 100.0 ETH to BNT
+
+# ---- Transaction Registration Ends --------
+
 
 start.append(st)
 h.append(ht)
