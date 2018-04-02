@@ -134,7 +134,7 @@ for i in range(0,num_of_tx):
 	plt.bar(start[i],height[i],width = width[i], color= c1)
 	plt.plot([start[i], start[i+1]], [h[i],h[i+1]],color = c2)
 
-
+#	ploting
 plt.plot(start,h,'ro',color = '#000000')
 
 plt.axis([-50.0, 2550.0, 0.95, 1.02])
